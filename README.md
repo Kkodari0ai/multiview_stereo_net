@@ -11,4 +11,9 @@ the channel dimension. The network consists of
  and z 
 dimensions of the object.
 
+This dataset class loads the images as 
+RGB images, resizes them to 224x224, and normalises 
+the pixel values
+ to the range [0, 1].
+
 
