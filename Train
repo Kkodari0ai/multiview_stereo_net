@@ -1,0 +1,5 @@
+from torch.utils.data import DataLoader
+
+dataset = MultiViewDataset('path/to/dataset')
+dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
+
